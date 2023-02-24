@@ -1,18 +1,23 @@
 {
   "name": "next-linaria-typescript-base",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A NextJS Linaria TypeScript Base Application",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["nextjs", "linaria", "typescript"],
+  "author": "Daine Mawer",
   "license": "ISC",
   "dependencies": {
+    "@linaria/babel-preset": "^4.4.3",
+    "@linaria/core": "^4.2.8",
+    "@linaria/react": "^4.3.6",
+    "@linaria/shaker": "^4.2.9",
+    "@linaria/webpack-loader": "^4.1.15",
     "next": "^13.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
